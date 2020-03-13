@@ -1,5 +1,7 @@
 let num = 0; 
 
+takeANumber();
+
 var takeANumber = function() {
   
   //machine starts at 0
