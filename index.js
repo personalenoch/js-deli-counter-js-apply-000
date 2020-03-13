@@ -1,6 +1,8 @@
 let num = 0; 
 
-takeANumber();
+console.log(takeANumber());
+console.log(takeANumber());
+console.log(takeANumber());
 
 var takeANumber = function() {
   
