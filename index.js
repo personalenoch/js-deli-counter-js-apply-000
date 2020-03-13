@@ -12,10 +12,6 @@ var takeANumber = function() {
   return "order number: " + num;
 } 
 
-console.log(takeANumber());
-console.log(takeANumber());
-console.log(takeANumber());
-
 
 var nowServing = function(katzDeliLine) {
   
