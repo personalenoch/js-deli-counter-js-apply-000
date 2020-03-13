@@ -1,9 +1,5 @@
 let num = 0; 
 
-console.log(takeANumber());
-console.log(takeANumber());
-console.log(takeANumber());
-
 var takeANumber = function() {
   
   //machine starts at 0
