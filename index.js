@@ -1,7 +1,15 @@
-var takeANumber = function(katzDeliLine, name) {
+let num = 0; 
+
+var takeANumber = function() {
   
-  katzDeliLine.push(name);
-  return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line.";
+  //machine starts at 0
+  //first number is 1 
+  //returns an ordered number to the customer 
+
+  num++;
+  
+  //katzDeliLine.push(name);
+  return "order number: " + num;
 } 
 
 var nowServing = function(katzDeliLine) {
